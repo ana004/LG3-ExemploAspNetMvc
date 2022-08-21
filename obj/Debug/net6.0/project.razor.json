@@ -16333,6 +16333,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\paula\\OneDrive\\Documentos\\LG3\\LG3-ExemploAspNetMvc\\Views\\Calculadora\\OperacaoResultado.cshtml",
+      "TargetPath": "Views\\Calculadora\\OperacaoResultado.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\paula\\OneDrive\\Documentos\\LG3\\LG3-ExemploAspNetMvc\\Views\\Home\\PrimeiraAction.cshtml",
       "TargetPath": "Views\\Home\\PrimeiraAction.cshtml",
       "FileKind": "mvc"
@@ -16355,6 +16360,11 @@
     {
       "FilePath": "c:\\Users\\paula\\OneDrive\\Documentos\\LG3\\LG3-ExemploAspNetMvc\\Views\\OperacoesMatematicas\\Divisao.cshtml",
       "TargetPath": "Views\\OperacoesMatematicas\\Divisao.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\paula\\OneDrive\\Documentos\\LG3\\LG3-ExemploAspNetMvc\\Views\\Calculadora\\Operacao.cshtml",
+      "TargetPath": "Views\\Calculadora\\Operacao.cshtml",
       "FileKind": "mvc"
     },
     {
