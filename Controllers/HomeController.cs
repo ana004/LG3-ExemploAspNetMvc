@@ -4,12 +4,6 @@ using ExemploAspNetMvc.Models;
 
 namespace ExemploAspNetMvc.Controllers;
 
-public class UserCreateDto
-{
-    public string Nome { get; set; }
-    public string Email { get; set; }
-}
-
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
@@ -51,7 +45,7 @@ public class HomeController : Controller
 
     public string TesteFormData([FromForm] UserCreateDto userCreateDto, [FromHeader] string x) 
     {
-        return $"Nome: {userCreateDto.Nome}, E-mail: {userCreateDto.Email}, x: {x}";
+        return $"Nome: {userCreateDto.Nome}, E-mail: {userCreateDto.Email}, Senha: {userCreateDto.Senha}, x: {x}";
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
